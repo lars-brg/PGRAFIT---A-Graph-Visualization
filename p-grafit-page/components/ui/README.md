@@ -1,0 +1,1 @@
+# Componentes pequenos/básicos (Button, Card)

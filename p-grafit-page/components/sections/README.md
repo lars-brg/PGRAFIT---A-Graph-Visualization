@@ -1,0 +1,1 @@
+# Componentes de seções grandes (Hero, GrafoSection, Features)
