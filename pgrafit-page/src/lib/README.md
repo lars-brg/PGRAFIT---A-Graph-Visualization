@@ -1,10 +1,11 @@
-# 🔧 Utilitários e Lógica de Negócios (`src/lib`)
+# 📚 Diretório de Bibliotecas e Lógica (`src/lib/`)
 
-Este diretório contém funções auxiliares, lógica de negócios e abstrações para serviços externos. O objetivo é manter os componentes (em `src/components`) limpos e focados apenas na renderização.
+Este diretório contém a lógica de negócio e as funções utilitárias do frontend que não são componentes React (embora alguns arquivos possam usar React Hooks para manipular o Sigma). Seu objetivo é manter a lógica complexa e de manipulação de dados **separada dos componentes visuais**.
 
-**Conteúdo Principal:**
+## Organização Interna
 
-- **Conexão com a API:** Funções para fazer requisições HTTP ao `api/` (backend Python).
-  - Exemplo: `api-client.ts`
-- **Funções de Formatação:** Funções para manipular ou formatar dados do grafo (ex: formatar valores, calcular densidade, etc.).
-- **Configurações:** Constantes ou configurações que são compartilhadas por toda a aplicação.
+| Diretório/Arquivo | Descrição |
+| :--- | :--- |
+| `graph/` | **Lógica Essencial do Grafo.** Contém a conversão de dados JSON, as configurações de renderização e as funcionalidades de interatividade (busca, destaque e seleção) que são injetadas no Sigma. **(Detalhado abaixo)** |
+| `types/` (Sugerido) | Tipos TypeScript customizados para a aplicação (ex: `GraphData`, `NodeAttributes`, etc.). |
+| `utils.ts` | Funções auxiliares gerais que podem ser usadas em qualquer parte do projeto (ex: formatação de strings, cálculos de data, helpers de URL). |
