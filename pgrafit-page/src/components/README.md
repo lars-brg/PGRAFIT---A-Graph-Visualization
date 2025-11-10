@@ -5,5 +5,6 @@ Este diretório armazena todos os componentes React da aplicação. A organizaç
 ## Estrutura Interna
 
 1.  **`app/`**: Componentes específicos da Aplicação.
+1.  **`graph/`**: Componentes específicos no uso da geração do grafo.
 2.  **`ui/`**: Componentes de Interface de Usuário (UI) genéricos.
 
