@@ -45,3 +45,6 @@ python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 # OU
 .\venv\Scripts\activate   # Windows (CMD/PowerShell)
+
+# Rode a aplicação usando 
+python app.py 

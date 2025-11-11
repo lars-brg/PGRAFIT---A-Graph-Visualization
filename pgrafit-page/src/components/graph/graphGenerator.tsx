@@ -1,7 +1,5 @@
 "use client";
 
-"use client";
-
 // React e hooks
 import { FC, CSSProperties, useEffect, useState } from "react";
 

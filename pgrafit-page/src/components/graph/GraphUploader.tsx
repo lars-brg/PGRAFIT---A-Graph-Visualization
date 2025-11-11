@@ -69,7 +69,7 @@ const GraphUploader: React.FC = () => {
         key={graphKey}
         graphFile={graphFile}
         style={{
-          width: "70%",
+          width: "100%",
           height: "600px",
           backgroundColor: "#f3f3f3",
           borderRadius: "8px",
